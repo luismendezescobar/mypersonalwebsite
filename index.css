@@ -1,0 +1,57 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;  
+    background-color: darkgrey;
+}
+/**********************this part is to modify the top menu***************************************/
+nav{  /*we also added footer so that it looks the same as the top menu the comma meand and */
+    height: 45px;
+    background-color:rgb(38, 42, 56);
+    width: 100%;
+    line-height: 50px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    margin-top: 0px;
+  }  
+  nav ul{
+    list-style:none;
+    padding-left: 0;
+    display: flex;    /*this one puts the list into a single row*/
+    justify-content: center;
+    margin-top: 0;
+  }  
+  nav ul li{     /*this is for the space between the options of the menu*/
+    margin-left: 60px;
+    margin-right: 60px;
+  }  
+  nav li:hover{    /*this is to change the color of the words in the top menu*/
+    color: white;  
+  }    
+  nav li{
+    text-decoration: none;
+    color:darkgray ;
+    display:block;
+    padding:0 10px;
+  }  
+/*****************starts blue frame***************************************************/
+blueframe p{
+    height: 45px;
+    background-color:dodgerblue;
+    width: 100%;
+    line-height: 50px;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    color:whitesmoke;
+    margin-top: 0px;
+    margin-bottom: 0;
+    text-align:center;
+  }
+  blueframe a:link{  
+    text-decoration: none;
+  }
+  blueframe a:hover{
+    text-decoration: underline;
+    color: whitesmoke;
+  }
+/***********************************************/
