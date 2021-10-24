@@ -1,0 +1,23 @@
+#b1, #b2, #b3, #b4, #b5, 
+    #b6, #b7, #b8, #b9 {
+        width: 90px;
+        height: 60px;
+        margin: auto;
+        border: 1px solid gray;
+        border-radius: 3px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+
+#gameWrapper{
+      text-align: center;
+}
+
+.headers{
+      text-align: center;
+}
+
+body{
+    background-color: darkgrey;
+}

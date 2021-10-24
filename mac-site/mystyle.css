@@ -1,0 +1,612 @@
+
+body{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;  
+}
+
+/**********************this part is to modify the top menu***************************************/
+nav{  /*we also added footer so that it looks the same as the top menu the comma meand and */
+  height: 45px;
+  background-color:rgb(38, 42, 56);
+  width: 100%;
+  line-height: 50px;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+nav ul{
+  list-style:none;
+  padding-left: 0;
+  display: flex;    /*this one puts the list into a single row*/
+  justify-content: center;
+  margin-top: 0;
+}
+
+nav ul li{     /*this is for the space between the options of the menu*/
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+nav li>a:hover{    /*this is to change the color of the words in the top menu*/
+  color: white;  
+}
+
+nav li a img:hover{    /*this is to change the color of the words in the top menu*/
+  filter: invert(100%)  
+}
+
+nav a{
+  text-decoration: none;
+  color:darkgray ;
+  display:block;
+  padding:0 10px;
+}
+
+nav img {
+  margin-top: 10px;
+}
+
+/*****************starts blue frame***************************************************/
+blueframe p{
+  height: 45px;
+  background-color:dodgerblue;
+  width: 100%;
+  line-height: 50px;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 14px;
+  color:whitesmoke;
+  margin-top: 0px;
+  margin-bottom: 0;
+  text-align:center;
+}
+blueframe a:link{  
+  text-decoration: none;
+}
+blueframe a:hover{
+  text-decoration: underline;
+  color: whitesmoke;
+}
+/****************starts gray frame*****************************************/
+grayframe p{
+  height: 45px;
+  background-color:#f1f1f1;
+  width: 100%;
+  line-height: 50px;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 14px;
+  color:black;
+  margin-top: 0px;
+  margin-bottom: 0;
+  text-align:center;
+}
+grayframe a{
+  color: dodgerblue;
+}
+grayframe a:link{  
+  text-decoration: none;
+}
+grayframe a:hover{
+  text-decoration: underline;
+  
+}
+/*********************section01 iPhone 12***********************************/
+.title01 p {
+  height: 40px;
+  /*background-color:dodgerblue;*/
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  width: 100%;
+  line-height: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align:center;
+  color: black;
+
+}
+
+.title01:link {
+  text-decoration: none;
+}
+
+.title01 p:first-child{
+  margin-top: 30px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.title01 p+p{
+  margin-top: 20px;
+  font-size: 30px;
+}
+.title01 p+p+p{
+  margin-top: 5px;
+  font-size: 15px;
+  color: grey;
+}
+.title01 p+p+p+p{
+  margin-top: 0px;
+  font-size: 15px;
+  line-height: 25px;
+  color: grey;
+}
+section01 a:link{
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  /*font-weight: bold;
+  text-align:center;*/
+}
+section01 ul{
+  list-style:none;
+  height: 45px;
+  padding-left: 0;
+  display: flex;    
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+section01 ul li{     /*this is for the space between the options of the menu*/
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+section01 ul li a:hover{
+  text-decoration: underline;
+}
+section01 ul li a{
+  color: dodgerblue;
+}
+/**********************section02 iphone's image*******************************/
+
+/*with # you select id */
+
+section02 div {
+  text-align: center;  
+}
+
+/* this is to resize an image*/
+/*with dot . you select a class*/
+.iphone-image01{
+  width: 530px;
+  height: auto;
+}
+/*****************************tittle02 above black iphone's image***********/
+.title02 p {
+  height: 40px;
+  /*background-color:dodgerblue;*/
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  width: 100%;
+  line-height: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align:center;
+  color: white;
+  background-color: black;
+}
+.title02:link {
+  text-decoration: none;
+}
+.title02 p:first-child{
+  height: 70px;
+  margin-top: 10px;
+  padding-top:50px;
+  font-size: 50px;
+  /*font-weight: bold;*/
+}
+.title02 p+p{
+  /*margin-top: 20px;*/
+  font-size: 30px;
+}
+.title02 p+p+p{
+  margin-top: 0px;
+  font-size: 15px;
+  color: grey;
+}
+.title02 p+p+p+p{
+  margin-top: 0px;
+  font-size: 15px;
+  line-height: 25px;
+  color: grey;
+}
+/*************section 03 unordered list above iphone's black image********************/
+section03 a:link{
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+}
+section03 ul{
+  list-style:none;
+  height: 45px;
+  padding-left: 0;
+  display: flex;    
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: black;
+  
+}
+section03 ul li{     /*this is for the space between the options of the menu*/
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+section03 ul li a:hover{
+  text-decoration: underline;
+}
+section03 ul li a{
+  color: dodgerblue;
+}
+
+/**********************section04 black iphone's image*******************************/
+
+section04 div {
+  text-align: center;  
+  background-color: black;
+}
+
+/* this is to resize an image*/
+/*with dot . you select a class*/
+.iphone-image02{
+  width: 800px;
+  height: auto;
+}
+
+
+/******************title-03 and section05 and 06 ipard air section*********************************/
+.title03 p {
+  height: 40px;
+  /*background-color:dodgerblue;*/
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  width: 100%;
+  line-height: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align:center;
+  color: black;
+  background-color: white;
+}
+.title03:link {
+  text-decoration: none;
+}
+.title03 p:first-child{
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-top:50px;
+  font-size: 50px;
+  /*font-weight: bold;*/
+}
+.title03 p+p{
+  margin-top: 0px;
+  font-size: 30px;
+}
+section05 a:link{
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+}
+section05 ul{
+  list-style:none;
+  height: 45px;
+  padding-left: 0;
+  display: flex;    
+  justify-content: center;
+  margin-top: 10;
+  margin-bottom: 0;
+  background-color: white;  
+}
+section05 ul li{     /*this is for the space between the options of the menu*/
+  margin-left: 20px;
+  margin-right: 20px;
+}
+section05 ul li a:hover{
+  text-decoration: underline;
+}
+section05 ul li a{
+  color: dodgerblue;
+}
+section06 div {
+  text-align: center;  
+  background-color: white;
+}
+.ipad-image01{
+  width: 800px;
+  height: auto;
+}
+
+/***************starts bigsquare01*************************/
+bigsquare{
+  display: flex;
+  /*flex-flow: row wrap;*/
+
+  justify-content: center;
+  margin: 10px; /* margin of 10 on each side top, bottom, left, right*/
+  margin-top: 60px;
+  
+}
+
+.square01,.square02 {
+/*  height: 40px;*/
+  
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  width: 100%;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 0;  
+  /*color: black;*/
+  background-color: black;
+  text-align: center; 
+
+}
+.square01{  
+  margin-right: 5px;
+}
+.square02{
+  margin-left: 5px;
+}
+
+.title04:link, .title05:link {
+  text-decoration: none;
+}
+
+.title04 p:first-child,.title05 p:first-child{
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-top:50px;
+  font-size: 35px;
+  color: white;
+  
+}
+.title04 p+p, .title05 p+p{
+  margin-top: 0px;
+  font-size: 25px;
+  color: white;
+}
+section07 a:link, section09 a:link{
+  /*font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;*/
+  text-decoration: none;
+  font-size: 20px;
+}
+
+section07 ul, section09 ul{
+  list-style:none;
+  height: 45px;
+  padding-left: 0;
+  display: flex;    
+  justify-content: center;
+  margin-top: 10;
+  margin-bottom: 0;
+  /*background-color: white;  */
+}
+
+section07 ul li,section09 ul li{   
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+section07 ul li a:hover,section09 ul li a:hover {
+  text-decoration: underline;
+}
+section07 ul li a,section09 ul li a{
+  color: dodgerblue;
+}
+.iwatch01{
+  width: 230px;
+  height: auto;
+}
+
+.macbook01{
+  width: 500px;
+  height: auto;
+}
+section10 div {
+  margin-top: 60px;
+}
+
+/***************starts bigsquare02*************************/
+bigsquare02{
+  display: flex;
+  /*flex-flow: row wrap;*/
+
+  justify-content: center;
+  margin: 10px; /* margin of 10 on each side top, bottom, left, right*/
+  margin-top: 0px;
+  
+}
+
+.square01-02,.square02-02 {
+/*  height: 40px;*/
+  
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  width: 100%;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 0;  
+  /*color: black;*/
+  background-color: white;
+  text-align: center; 
+
+}
+.square01-02{  
+  margin-right: 5px;
+}
+.square02-02{
+  margin-left: 5px;
+}
+
+.title06:link, .title07:link {
+  text-decoration: none;
+}
+
+.title06 p:first-child,.title07 p:first-child{
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-top:50px;
+  font-size: 35px;
+  color: black;
+  
+}
+.title06 p+p, .title07 p+p{
+  margin-top: 0px;
+  font-size: 25px;
+  color: black;
+}
+section11 a:link, section13 a:link{  
+  text-decoration: none;
+  font-size: 20px;
+}
+
+section11 ul, section13 ul{
+  list-style:none;
+  height: 45px;
+  padding-left: 0;
+  display: flex;    
+  justify-content: center;
+  margin-top: 10;
+  margin-bottom: 0;
+}
+
+section11 ul li,section13 ul li{   
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+section11 ul li a:hover,section13 ul li a:hover {
+  text-decoration: underline;
+}
+section11 ul li a,section13 ul li a{
+  color: dodgerblue;
+}
+.fit01{
+  width: 600px;
+  height: auto;
+}
+
+.air01{
+  width: 400px;
+  height: auto;
+}
+section12 div {
+  margin-top: 40px;
+}
+section14 div {
+  margin-top: 40px;
+}
+
+/***************starts bigsquare03*************************/
+bigsquare03{
+  display: flex;
+  /*flex-flow: row wrap;*/
+
+  justify-content: center;
+  margin: 10px; /* margin of 10 on each side top, bottom, left, right*/
+  margin-top: 30px;
+  
+}
+
+.square01-03,.square02-03 {
+/*  height: 40px;*/
+  
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  width: 100%;
+  line-height: 20px;
+  
+  margin-bottom: 0;  
+  /*color: black;*/
+  background-color: white;
+  text-align: center; 
+
+}
+.square01-03{  
+  margin-right: 5px;
+}
+.square02-03{
+  margin-left: 5px;
+}
+
+.title08:link, .title07:link {
+  text-decoration: none;
+}
+
+.title08 p:first-child{
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-top:28px;
+  font-size: 35px;
+  color: black;
+  
+}
+.title08 p+p, .title07 p+p{
+  margin-top: 0px;
+  font-size: 25px;
+  color: black;
+}
+section15 a:link{  
+  text-decoration: none;
+  font-size: 20px;
+}
+
+section15 ul{
+  list-style:none;
+  height: 45px;
+  padding-left: 0;
+  display: flex;    
+  justify-content: center;
+  margin-top: 10;
+  margin-bottom: 0;
+}
+
+section15 ul li{   
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+section15 ul li a:hover {
+  text-decoration: underline;
+}
+section15 ul li a{
+  color: dodgerblue;
+}
+.card01{
+  width: 750px;
+  height: auto;
+}
+
+.cherry01{
+  width: 770px;
+  height: auto;
+}
+
+section16 div {
+  margin-top: 46px;
+}
+/**********************bigsquare04**************************************/
+
+
+
+.square01-04 {
+    height: 500px;
+    
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    width: 100%;
+     
+    font-size: 13px;
+    color: grey;
+    background-color:whitesmoke;
+
+    text-align:justify; 
+}
+  
+.square01-04 section19 ol{
+  padding-top: 20px;
+  padding-left: 250px;
+  padding-right:250px;
+
+}
