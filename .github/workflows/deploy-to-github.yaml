@@ -12,12 +12,8 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
-      - name: where am i
-        run: pwd
-      - name: copy content of the main branch to the build folder
-        run: cp * ./build -r
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: build # The folder the action should deploy.
+          folder: /home/runner/work/mypersonalwebsite/mypersonalwebsite # The folder the action should deploy.
