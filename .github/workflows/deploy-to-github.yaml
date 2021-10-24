@@ -15,7 +15,7 @@ jobs:
       - name: create build folder
         run: mkdir build
       - name: copy content of the main branch to the build folder
-        run: cp * /build
+        run: cp * ./build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
